@@ -26,6 +26,24 @@ export default function Footer() {
           })}
         </div>
       </div>
+
+      {/* Credit line — subtle, but visible to anyone who scrolls to the bottom */}
+      <div className="mx-auto mt-8 max-w-5xl border-t border-white/5 pt-6 text-center">
+        <p className="text-xs text-slate-500">
+          Designed & developed by{" "}
+          <span className="font-medium text-gold-400">it_shadid</span>
+          {" — "}
+          <a
+            href="mailto:shadid2023@gmail.com?subject=Website%20Inquiry"
+            className="text-slate-400 transition-colors hover:text-gold-400 hover:underline"
+          >
+            shadid2023@gmail.com
+          </a>
+        </p>
+        <p className="mt-1 text-xs text-slate-600">
+          Need a website like this? Feel free to reach out.
+        </p>
+      </div>
     </footer>
   );
 }
