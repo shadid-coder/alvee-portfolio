@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-950 text-slate-300 antialiased;
+}
+
+::selection {
+  background-color: rgba(212, 175, 55, 0.3);
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #d4af37;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Solid, bordered card — deliberately not glassmorphism/blur, to read as
+   a more formal, document-like surface than a tech "dev portfolio". */
+.card {
+  @apply rounded-xl border border-white/10 bg-ink-900;
+}
+
+.card-hover {
+  @apply transition-colors duration-300 hover:border-gold-400/40;
+}
+
+.divider {
+  @apply h-px w-12 bg-gold-400;
+}
