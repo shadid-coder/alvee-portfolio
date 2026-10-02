@@ -40,9 +40,7 @@ export default function Footer() {
             shadid2023@gmail.com
           </a>
         </p>
-        <p className="mt-1 text-xs text-slate-600">
-          Need a website like this? Feel free to reach out.
-        </p>
+        
       </div>
     </footer>
   );
