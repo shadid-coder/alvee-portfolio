@@ -145,8 +145,8 @@ export const experience: ExperienceItem[] = [
   {
     id: "bank-asia",
     role: "Customer Service Officer",
-    company: "Bank Asia",
-    location: "Kutubzom DPO Agent Banking Outlet",
+    company: "Bank Asia-Kutubzom DPO Agent Banking Outlet",
+    
     startDate: "August 2020",
     endDate: "Present",
     bullets: [
