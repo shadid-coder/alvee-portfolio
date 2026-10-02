@@ -83,7 +83,7 @@ export const personalInfo: PersonalInfo = {
   title: "Customer Service & Operations Professional",
   location: "Cox's Bazar District, Chattogram, Bangladesh",
   summary:
-    "Customer-focused banking professional with 6+ years of experience in customer service, banking operations, account management, and business development. Currently a Customer Service Officer at Bank Asia PLC,Kutubzom DPO Agent Banking Outlet , supporting customers while maintaining service quality, compliance, and operational accuracy. Core strengths include customer relationship management, business development, customer acquisition, complaint resolution, problem solving, and communication. Open to opportunities where banking experience and a business-focused mindset can contribute to organizational growth.",
+    "Customer-focused banking professional with 6+ years of experience in customer service, banking operations, account management, and business development. Currently a Customer Service Officer at Bank Asia-Kutubzom DPO Agent Banking Outlet, supporting customers while maintaining service quality, compliance, and operational accuracy. Core strengths include customer relationship management, business development, customer acquisition, complaint resolution, problem solving, and communication. Open to opportunities where banking experience and a business-focused mindset can contribute to organizational growth.",
   avatarUrl: "/avatar.jpg", // TODO: add a photo here — shows initials until then
   resumeUrl: "/Alvee-CV.pdf",
 };

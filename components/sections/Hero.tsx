@@ -59,7 +59,7 @@ export default function Hero() {
 
           <p className="mx-auto mt-6 max-w-xl text-slate-400 md:mx-0">
             Banking professional with 6+ years across customer service,
-            operations, and business development — currently at Bank Asia PLC,Kutubzom DPO Agent Banking Outlet .
+            operations, and business development — currently at Bank Asia-Kutubzom DPO Agent Banking Outlet.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4 md:justify-start">
